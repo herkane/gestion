@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: x-large;
+    background-color: #233e8b;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    font-size: x-large;
+    background-color: transparent;
+    border: 0.3rem solid white;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+form:hover {
+    box-shadow: 5px 5px 10px white;
+    transition: all 0.3s;
+}
+
+input {
+    font-size: large;
+    text-align: center;
+    width: 95%;
+    background-color: white;
+    padding: 0.5rem;
+    height: 2.5rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border: 0.2rem transparent;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.3s;
+}
+
+input:focus,
+input:hover {
+    border: 0.2rem solid rgb(46, 46, 46);
+    background-color: rgb(243, 243, 191);
+    transition: all 0.3s;
+}
+
+.signin {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.signin:hover {
+    background-color: transparent;
+    border: 0.2rem solid white;
+    color: white;
+    transition: all 0.3s;
+}
+
+label {
+    color: white;
+    margin: 1rem;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: white;
+}

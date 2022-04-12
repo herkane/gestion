@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #233e8b;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.addUser {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.input {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input {
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 15rem;
+    font-size: medium;
+}
+
+select {
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 15rem;
+    font-size: medium;
+}
+
+option {
+    margin: 1rem;
+    padding: 0.5rem;
+    min-height: 1rem;
+    font-size: medium;
+}
+
+.form1>div {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-image {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.add-image>input {
+    margin-top: 0;
+    padding: 0;
+    text-align-last: center;
+    margin: auto;
+}
+
+img {
+    width: 10rem;
+    margin-bottom: 1.5rem;
+    filter: drop-shadow(0 0 10px white);
+}
+
+button {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    background-color: #1eae98;
+    border: 0.2rem solid #1eae98;
+    transition: all 0.3s;
+}
+
+button:hover {
+    color: #1eae98;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+label {
+    margin-right: 1rem;
+    font-size: large;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+form>h2 {
+    margin: 1rem;
+}

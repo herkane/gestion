@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #233e8b;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.sanction {
+    width: 100%;
+    /* background-color: #1eae98; */
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: 100%;
+}
+
+form>div>div {
+    margin: 1rem;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input,
+textarea {
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 15rem;
+    font-size: medium;
+    /* resize: none; */
+}
+
+button {
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    background-color: #1eae98;
+    border: 0.2rem solid #1eae98;
+    margin: 1rem;
+    transition: all 0.3s;
+}
+
+button:hover {
+    color: #1eae98;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+
+label {
+    margin-right: 1rem;
+    font-size: large;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+form>h2 {
+    margin: 1rem;
+}
+
+.addSanction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border-color: white;
+    table-layout: 100%;
+}
+
+td,
+th {
+    padding: 0.8rem;
+    text-align: center;
+    background-color: #a9f1df;
+}
+
+th {
+    background-color: azure;
+}

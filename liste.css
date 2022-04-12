@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #233e8b;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.liste {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    padding: 0;
+}
+
+.listes {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.listes>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    border-color: white;
+    table-layout: 100%;
+}
+
+td,
+th {
+    padding: 0.8rem;
+    text-align: center;
+    background-color: #a9f1df;
+}
+
+th {
+    background-color: azure;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    margin: 1rem
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.results>h2,
+h3 {
+    margin: 1rem;
+    color: white;
+}
+
+img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 0.3rem solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s all;
+}
+
+img:hover {
+    filter: drop-shadow(0 0 10px white);
+    transition: 0.3s all;
+}
+
+.card {
+    cursor: pointer;
+    margin: 1rem;
+    padding: 1rem;
+    width: 100%;
+    background-color: #1eae9891;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s all;
+}
+
+.card:hover {
+    background-color: #105248;
+    transition: 0.3s all;
+    filter: drop-shadow(0 0 10px white);
+}
+
+.half1 {
+    margin: 1rem;
+    margin-right: 0;
+}
+
+.card>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
